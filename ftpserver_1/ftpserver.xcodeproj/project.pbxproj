@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D84B62361CB76F4B0047ABF2 /* mysocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84B62341CB76F4B0047ABF2 /* mysocket.cpp */; };
+		D884CB9B1CB52CB400C96FC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D884CB9A1CB52CB400C96FC0 /* main.cpp */; };
+		D884CBA31CB52CF700C96FC0 /* ftpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D884CBA11CB52CF700C96FC0 /* ftpserver.cpp */; };
+		D884CBA61CB53F7B00C96FC0 /* filemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D884CBA41CB53F7B00C96FC0 /* filemanager.cpp */; };
+		D8F0DDC01CB7353200B197A1 /* ftpfiletransmit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F0DDBE1CB7353200B197A1 /* ftpfiletransmit.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D884CB951CB52CB400C96FC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D84B62341CB76F4B0047ABF2 /* mysocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mysocket.cpp; sourceTree = "<group>"; };
+		D84B62351CB76F4B0047ABF2 /* mysocket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mysocket.hpp; sourceTree = "<group>"; };
+		D884CB971CB52CB400C96FC0 /* ftpserver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ftpserver; sourceTree = BUILT_PRODUCTS_DIR; };
+		D884CB9A1CB52CB400C96FC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D884CBA11CB52CF700C96FC0 /* ftpserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ftpserver.cpp; sourceTree = "<group>"; };
+		D884CBA21CB52CF700C96FC0 /* ftpserver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ftpserver.hpp; sourceTree = "<group>"; };
+		D884CBA41CB53F7B00C96FC0 /* filemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filemanager.cpp; sourceTree = "<group>"; };
+		D884CBA51CB53F7B00C96FC0 /* filemanager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filemanager.hpp; sourceTree = "<group>"; };
+		D8F0DDBE1CB7353200B197A1 /* ftpfiletransmit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ftpfiletransmit.cpp; sourceTree = "<group>"; };
+		D8F0DDBF1CB7353200B197A1 /* ftpfiletransmit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ftpfiletransmit.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D884CB941CB52CB400C96FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D884CB8E1CB52CB400C96FC0 = {
+			isa = PBXGroup;
+			children = (
+				D884CB991CB52CB400C96FC0 /* ftpserver */,
+				D884CB981CB52CB400C96FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D884CB981CB52CB400C96FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D884CB971CB52CB400C96FC0 /* ftpserver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D884CB991CB52CB400C96FC0 /* ftpserver */ = {
+			isa = PBXGroup;
+			children = (
+				D884CB9A1CB52CB400C96FC0 /* main.cpp */,
+				D884CBA11CB52CF700C96FC0 /* ftpserver.cpp */,
+				D884CBA21CB52CF700C96FC0 /* ftpserver.hpp */,
+				D884CBA41CB53F7B00C96FC0 /* filemanager.cpp */,
+				D884CBA51CB53F7B00C96FC0 /* filemanager.hpp */,
+				D84B62341CB76F4B0047ABF2 /* mysocket.cpp */,
+				D84B62351CB76F4B0047ABF2 /* mysocket.hpp */,
+				D8F0DDBE1CB7353200B197A1 /* ftpfiletransmit.cpp */,
+				D8F0DDBF1CB7353200B197A1 /* ftpfiletransmit.hpp */,
+			);
+			path = ftpserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D884CB961CB52CB400C96FC0 /* ftpserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D884CB9E1CB52CB400C96FC0 /* Build configuration list for PBXNativeTarget "ftpserver" */;
+			buildPhases = (
+				D884CB931CB52CB400C96FC0 /* Sources */,
+				D884CB941CB52CB400C96FC0 /* Frameworks */,
+				D884CB951CB52CB400C96FC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ftpserver;
+			productName = ftpserver;
+			productReference = D884CB971CB52CB400C96FC0 /* ftpserver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D884CB8F1CB52CB400C96FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = future;
+				TargetAttributes = {
+					D884CB961CB52CB400C96FC0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D884CB921CB52CB400C96FC0 /* Build configuration list for PBXProject "ftpserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D884CB8E1CB52CB400C96FC0;
+			productRefGroup = D884CB981CB52CB400C96FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D884CB961CB52CB400C96FC0 /* ftpserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D884CB931CB52CB400C96FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F0DDC01CB7353200B197A1 /* ftpfiletransmit.cpp in Sources */,
+				D84B62361CB76F4B0047ABF2 /* mysocket.cpp in Sources */,
+				D884CB9B1CB52CB400C96FC0 /* main.cpp in Sources */,
+				D884CBA61CB53F7B00C96FC0 /* filemanager.cpp in Sources */,
+				D884CBA31CB52CF700C96FC0 /* ftpserver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D884CB9C1CB52CB400C96FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D884CB9D1CB52CB400C96FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D884CB9F1CB52CB400C96FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D884CBA01CB52CB400C96FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D884CB921CB52CB400C96FC0 /* Build configuration list for PBXProject "ftpserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D884CB9C1CB52CB400C96FC0 /* Debug */,
+				D884CB9D1CB52CB400C96FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D884CB9E1CB52CB400C96FC0 /* Build configuration list for PBXNativeTarget "ftpserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D884CB9F1CB52CB400C96FC0 /* Debug */,
+				D884CBA01CB52CB400C96FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D884CB8F1CB52CB400C96FC0 /* Project object */;
+}
